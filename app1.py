@@ -3,7 +3,7 @@ from Adafruit_IO import Client
 import  os
 aio = Client('sivapriya20',os.getenv('siva'))
 def turn_on_light(bot,update):
-    aio.send('bedroom-light'),1)
+    aio.send('bedroom-light',1)
     data = aio.receive('bedroom-light')
     print(f'Received value:{data.value}')
     chat_id=bot.message.chat_id
