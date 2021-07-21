@@ -7,7 +7,7 @@ def turn_on_light(bot,update):
     data = aio.receive('bedroom-light')
     print(f'Received value:{data.value}')
     chat_id=bot.message.chat_id
-    path='https%3A%2F%2Fscience4fun.info%2Fwp-content%2Fuploads%2F2016%2F12%2FLight-Bulb-1.jpg'
+    path='https://freedesignfile.com/upload/2018/04/Electric-light-bulb-vector-material.jpg'
     bot.message.reply_text('light is turned on')
     update.bot.sendPhoto(chat_id=chat_id,photo=path)
 def turn_off_light(bot,update):
@@ -15,7 +15,7 @@ def turn_off_light(bot,update):
     data = aio.receive('bedroom-light')
     print(f'Received value:{data.value}')
     chat_id=bot.message.chat_id
-    path='https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2020%2F06%2F03%2F14%2F28%2Flight-5255121_960_720.jpg'
+    path='https://cdn5.vectorstock.com/i/1000x1000/70/44/3d-realistic-off-light-bulb-icon-closeup-vector-27407044.jpg'
     bot.message.reply_text('light is turned off')
     update.bot.sendPhoto(chat_id=chat_id,photo=path)
 def turn_on_fan(bot,update):
@@ -23,7 +23,7 @@ def turn_on_fan(bot,update):
     data = aio.receive('fan')
     print(f'Received value:{data.value}')
     chat_id=bot.message.chat_id
-    path='https%3A%2F%2Fcdn.frontdoorhome.com%2Fahs%2Fblog%2Fprod%2Fstatic%2Fcs%2Fahs%2Fimage%2Frunning-fan.jpg'
+    path='https://pursolaraz.com/wp-content/uploads/2019/04/Depositphotos_1175497_l-2015-1080.jpg'
     bot.message.reply_text('fan is turned on')
     update.bot.sendPhoto(chat_id=chat_id,photo=path)
 def turn_off_fan(bot,update):
@@ -31,7 +31,7 @@ def turn_off_fan(bot,update):
     data = aio.receive('fan')
     print(f'Received value:{data.value}')
     chat_id=bot.message.chat_id
-    path='https%3A%2F%2Fitg.wfu.edu%2Fwp-content%2Fuploads%2FCeilingFan-300x157.jpg'
+    path='https://5.imimg.com/data5/XS/MM/KF/SELLER-99661502/1200mm-electric-celling-fan-500x500.jpg'
     bot.message.reply_text('fan is turned off')
     update.bot.sendPhoto(chat_id=chat_id,photo=path)
 def main(bot,update):
